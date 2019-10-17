@@ -1,0 +1,9 @@
+C:\repos\cb\L1\WinFormApp\bin\Debug\WinFormApp.exe.config
+C:\repos\cb\L1\WinFormApp\bin\Debug\WinFormApp.exe
+C:\repos\cb\L1\WinFormApp\bin\Debug\WinFormApp.pdb
+C:\repos\cb\L1\WinFormApp\obj\Debug\WinFormApp.csprojAssemblyReference.cache
+C:\repos\cb\L1\WinFormApp\obj\Debug\WinFormApp.Form1.resources
+C:\repos\cb\L1\WinFormApp\obj\Debug\WinFormApp.Properties.Resources.resources
+C:\repos\cb\L1\WinFormApp\obj\Debug\WinFormApp.csproj.GenerateResource.cache
+C:\repos\cb\L1\WinFormApp\obj\Debug\WinFormApp.exe
+C:\repos\cb\L1\WinFormApp\obj\Debug\WinFormApp.pdb
