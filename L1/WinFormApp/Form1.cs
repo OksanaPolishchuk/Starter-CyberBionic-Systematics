@@ -51,5 +51,10 @@ namespace WinFormApp
         {
             MessageBox.Show("Sorry, but it doesn't work.");
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
