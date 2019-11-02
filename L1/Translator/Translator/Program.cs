@@ -5,7 +5,7 @@ namespace Translator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Руско - английский переводчик. Введите любое слово на русском языке из темы о погоде.");
+            Console.WriteLine("Русcко - английский переводчик. Введите любое слово на русском языке из темы о погоде.");
             string word = Console.ReadLine();
             switch (word)
             {
