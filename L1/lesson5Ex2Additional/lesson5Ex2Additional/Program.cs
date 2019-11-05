@@ -10,6 +10,8 @@ namespace lesson5Ex2Additional
     {
         static void Main(string[] args)
         {
+
+
         }
     }
 }
