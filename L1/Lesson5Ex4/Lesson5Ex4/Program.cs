@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Lesson5Ex4
 {
@@ -22,36 +23,37 @@ namespace Lesson5Ex4
             Console.WriteLine("Премии рассчитываются согласно выслуге лет. Укажите выслугу.");
 
             string z = Console.ReadLine();
-            double x = Convert.ToInt32(z);
+            double x = Convert.ToDouble(z);
+            
 
             if (0 < x && x < 5) 
             {
-                bonus = ((salary / 100) * 10);
+                bonus = salary * 10 / 100;
                 Console.WriteLine(bonus);
             } 
             if (4 < x && x < 10)
             {
-                bonus = ((salary / 100) * 15);
+                bonus = salary * 15 / 100;
                 Console.WriteLine(bonus);
             }
             if (9 < x && x < 15)
             {
-                bonus = ((salary / 100) * 25);
+                bonus = salary * 25 / 100 ;
                 Console.WriteLine(bonus);
             } 
             if (14 < x && x < 20)
             {
-                bonus = ((salary / 100) * 35);
+                bonus = salary * 35 / 100;
                 Console.WriteLine(bonus);
             } 
             if (19 < x && x < 25)
             {
-                bonus = ((salary / 100) * 45);
+                bonus = salary * 45 / 100;
                 Console.WriteLine(bonus);
             } 
             if (24 < x) 
             {
-                bonus = ((salary / 100) * 50); 
+                bonus = salary * 50 / 100; 
                 Console.WriteLine(bonus);
             }
             Console.ReadKey();
