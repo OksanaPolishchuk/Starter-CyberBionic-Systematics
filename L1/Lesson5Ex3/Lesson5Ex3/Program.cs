@@ -1,61 +1,53 @@
 ﻿using System;
+
 namespace Lesson5Ex3
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //x += y >> x++ * z;
+            /*   x += y >> x++ * z; 
+                 z = ++x & y * 5; 
+                 y /= x + 5 | z; 
+                 z = x++ & y * 5; 
+                 x = y << x++ ^ z; */
             {
-                int x = 5;
-                int y = 10;
-                int z = 15;
+                int x = 5, y = 10, z = 15;
 
-                int result1 = ((x += y) >> x++) * z;
+                x = x + y >> (x++ * z);
 
-                Console.WriteLine(result1);
+                Console.WriteLine(x);
             }
-            //  z = ++x & y * 5;
             {
-                int x = 5;
-                int y = 10;
-                int z = 15;
+                int x = 5, y = 10, z = 15;
 
-                int result2 = (++x & y) * 5;
+                z = ++x & (y * 5);
 
-                Console.WriteLine(result2);
+                Console.WriteLine(z);
             }
-            //  y /= x + 5 | z;
             {
-                int x = 5;
-                int y = 10;
-                int z = 15;
+                int x = 5, y = 10, z = 15;
 
-                int result3 = (y /=(x + 5)) | z;
+                y /= ((x + 5) | z);
 
-                Console.WriteLine(result3);
+                Console.WriteLine(y);
             }
-            // z = x++ & y * 5
             {
-                int x = 5;
-                int y = 10;
-                int z = 15;
+                int x = 5, y = 10, z = 15;
 
-                int result4 = (z = (x++ & y)) * 5;
+                z = x++ & (y * 5);
 
-                Console.WriteLine(result4);
+                Console.WriteLine(z);
             }
-            //x = y << x++ ^ z
             {
-                int x = 5;
-                int y = 10;
-                int z = 15;
+                int x = 5, y = 10, z = 15;
+                x = (y << x++) ^ z;
 
-                int result5 = (x = (y << x++)) ^ z;
+                Console.WriteLine(x);
 
-                Console.WriteLine(result5);
+                Console.ReadKey();
+
             }
-            Console.ReadKey();
         }
     }
 }
