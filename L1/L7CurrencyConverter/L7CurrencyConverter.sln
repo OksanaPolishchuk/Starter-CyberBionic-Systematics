@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L7CurrencyConverter", "L7CurrencyConverter\L7CurrencyConverter.csproj", "{69DFDFB7-0D0A-4004-A1A6-A474D28C61D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69DFDFB7-0D0A-4004-A1A6-A474D28C61D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69DFDFB7-0D0A-4004-A1A6-A474D28C61D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69DFDFB7-0D0A-4004-A1A6-A474D28C61D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69DFDFB7-0D0A-4004-A1A6-A474D28C61D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB70FFCF-5727-4FB8-8588-0CBD86168A0D}
+	EndGlobalSection
+EndGlobal
